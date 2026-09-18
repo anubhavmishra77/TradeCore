@@ -26,6 +26,7 @@ android {
         }
         release {
             isMinifyEnabled = true
+            isShrinkResources = true
             buildConfigField("String", "BASE_URL", "\"https://api.tradecore.app\"")
             buildConfigField("String", "WS_URL", "\"wss://api.tradecore.app\"")
             proguardFiles(
@@ -74,6 +75,8 @@ dependencies {
     implementation(libs.androidx.activity.compose)
     implementation(libs.androidx.navigation.compose)
     implementation(libs.androidx.lifecycle.runtime.compose)
+    implementation(libs.androidx.lifecycle.viewmodel.compose)
+    implementation(libs.kotlinx.coroutines.android)
 
     implementation(libs.hilt.android)
     implementation(libs.hilt.navigation.compose)
