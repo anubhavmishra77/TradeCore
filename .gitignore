@@ -1,0 +1,26 @@
+# Gradle / build
+.gradle/
+build/
+captures/
+local.properties
+*.apk
+*.aab
+*.keystore
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Env / secrets
+.env
+.env.*
+secrets.properties
+
+# Logs
+*.log
+logs/

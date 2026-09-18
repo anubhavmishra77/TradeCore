@@ -1,0 +1,19 @@
+<mxfile host="app.diagrams.net" modified="2026-01-01T00:00:00.000Z" agent="TradeCore" version="24.0.0">
+  <diagram id="database-schema" name="Database Schema">
+    <mxGraphModel dx="1100" dy="700" grid="1" gridSize="10" guides="1" tooltips="1" connect="1"
+                  arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="Database Schema" style="text;html=1;fontSize=20;fontStyle=1;align=left;"
+                vertex="1" parent="1">
+          <mxGeometry x="40" y="30" width="400" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="note" value="Open in diagrams.net and lay out the Database Schema here."
+                style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="90" width="320" height="70" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

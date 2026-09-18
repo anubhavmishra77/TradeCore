@@ -1,0 +1,12 @@
+package com.tradecore.backend.common
+
+enum class ErrorCode {
+    UNAUTHORIZED,
+    VALIDATION_FAILED,
+    INSUFFICIENT_FUNDS,
+    INSTRUMENT_INACTIVE,
+    ORDER_NOT_FOUND,
+    ORDER_NOT_CANCELLABLE,
+    CONFLICT,
+    INTERNAL_ERROR,
+}
